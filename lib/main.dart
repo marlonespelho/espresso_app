@@ -12,9 +12,7 @@ void main() {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
       systemNavigationBarColor: Colors.white,
-      statusBarIconBrightness: Brightness.dark, // status bar icons' color
-      systemNavigationBarIconBrightness: Brightness.dark, //navigation bar icons' color
-    ));
+        ));
     runApp(AppModule());
   });
 }
